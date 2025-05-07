@@ -33,6 +33,9 @@ import Portfolio from './views/profile/Portfolio.vue';
 import Community from './views/community/Community.vue';
 import Mentorship from './views/community/Mentorship.vue';
 
+// hackathon views
+import Applied from './views/projects/Applied.vue';
+
 // Placeholder components for missing routes
 const Faq = { template: '<div class="container"><h1>FAQ</h1><p>Frequently Asked Questions coming soon.</p></div>' };
 const Terms = { template: '<div class="container"><h1>Terms of Service</h1><p>Terms content coming soon.</p></div>' };
@@ -42,6 +45,7 @@ const CodeOfConduct = { template: '<div class="container"><h1>Code of Conduct</h
 const routes = [
   { path: '/', component: Home },
   { path: '/hackathons', component: Hackathons },
+  {path : '/applied', component: Applied},
   { path: '/blog', component: Blog },
   { path: '/about', component: About },
   { path: '/login', component: Login },

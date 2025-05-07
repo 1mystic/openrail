@@ -1,15 +1,17 @@
 /* Import Nunito Sans and Space Mono fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Space+Mono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap');
+
 :root {
-  --primary-color: #375bb1;
-  --secondary-color: #f4cd4d;
-  --accent-color: #46d6ae;
-  --bg-color: #f9f8f7;
+  --primary-color: rgb(32,83,67);
+  --secondary-color: rgb(104,229,191);
+  --accent-color: rgba(230, 255, 247, 0.782);
+  --bg-color: rgb(225,225,225);
   --text-color: #333333;
-  --light-blue: #95add5;
+  --light-blue: #95d5a7;
   --brown: #98604b;
-  --pale-blue: #c0cff4;
+  --pale-blue: #dbf4c0;
   --light-orange: #e3b185;
   --pale-yellow: #e3ce9c;
 }
@@ -21,7 +23,7 @@
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Urbanist', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.5;
@@ -61,7 +63,7 @@ button {
 }
 
 .btn-primary:hover {
-  background-color: #2d4a8e;
+  background-color: rgb(32,83,67);
 }
 
 .btn-outline {

@@ -34,7 +34,7 @@
         <span class="keyboard-hint">K</span>
       </div>
       <div class="my-hackathons">
-        <a href="/hackathons/applied" class="my-hackathons-btn">Your hackathons</a>
+        <a href="/applied" class="my-hackathons-btn">Your hackathons</a>
       </div>
     </div>
 
